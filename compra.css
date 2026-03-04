@@ -1,0 +1,247 @@
+/* ===== ESTILOS GENERALES ===== */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: radial-gradient(circle at top, #8b1919, #740000);
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+body h2 {
+  margin:0;
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* ===== TARJETAS ===== */
+.card {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Forzar que todo dentro de las tarjetas sea blanco */
+.card * {
+  color: #ffffff !important;
+}
+
+.card h2,
+.card label,
+.card p,
+.card span {
+  color: #ffffff;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card label {
+  font-size: 1rem;
+  display: block;
+  margin: 8px 0;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.card span {
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.9);
+}
+
+.card h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+/* ===== BOTONES +/- ===== */
+button {
+  background: #ffcc00;
+  border: none;
+  color: #000;
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 6px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #ffd633;
+  transform: scale(1.1);
+}
+
+/* ===== CONTADORES ===== */
+span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ===== CHECKBOXES ===== */
+label {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  transform: scale(1.2);
+  margin-right: 8px;
+  accent-color: #ffffff;
+}
+
+/* ===== OPCIONES DESPLEGABLES ===== */
+.hidden {
+  display: none;
+}
+
+#popcornOptions,
+#nachosOptions,
+#crepasOptions,
+#hotdogOptions,
+#sodaOptions,
+#waterOptions,
+#frappeOptions {
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+  border-left: 4px solid #ffcc00;
+}
+
+#popcornOptions label,
+#nachosOptions label,
+#crepasOptions label,
+#hotdogOptions label,
+#sodaOptions label,
+#waterOptions label,
+#frappeOptions label,
+#popcornOptions p,
+#nachosOptions p,
+#crepasOptions p,
+#hotdogOptions p,
+#sodaOptions p,
+#waterOptions p,
+#frappeOptions p {
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+#popcornOptions p,
+#nachosOptions p,
+#crepasOptions p,
+#hotdogOptions p,
+#sodaOptions p,
+#waterOptions p,
+#frappeOptions p {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+/* ===== SECCIONES POR TIPO ===== */
+.card:nth-of-type(1) {
+  border-left: 6px solid #00c3ff; /* Boletos */
+}
+
+.card:nth-of-type(2) {
+  border-left: 6px solid #ff9800; /* Snacks */
+}
+
+.card:nth-of-type(3) {
+  border-left: 6px solid #4caf50; /* Bebidas */
+}
+
+/* ===== TOTAL ===== */
+.total {
+  background: #000;
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: inset 0 0 20px rgba(163, 51, 51, 0.05);
+}
+
+.total h2 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+#totalText {
+  font-size: 38px;
+  margin-top: 10px;
+  color: #00ff99;
+  font-weight: bold;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  button {
+    width: 30px;
+    height: 30px;
+  }
+
+  #totalText {
+    font-size: 30px;
+  }
+}
+
+
+/* Botón de confirmación estilo Bootstrap */
+.btn-warning {
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+  color: #000 !important;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-warning:hover {
+  background-color: #ffca2c !important;
+  border-color: #ffc720 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.btn-warning:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-lg {
+  padding: 12px 24px;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.w-100 {
+  width: 100% !important;
+}
