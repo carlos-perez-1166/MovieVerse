@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket - MovieVerse</title>
+  <link rel="stylesheet" href="ticket.css">
+
+
+<h1>🎬 MovieVerse</h1>
+
+<section class="ticket">
+  <h2>🎟️ Ticket de Compra</h2>
+
+  <p><strong>Película:</strong> <span id="movie"></span></p>
+  <p><strong>Total pagado:</strong> <span id="total"></span></p>
+  <p><strong>Estado:</strong> <span id="status">Aprobado ✅</span></p>
+</section>
+
+<button onclick="descargarPDF()">Descargar PDF 📄</button>
+
+<script src="ticket.js"></script>
+
+
+
+<button onclick="verTicket()">👁️ Ver Ticket</button>
+<button onclick="descargar()">⬇️ Descargar PDF</button>
+
+<script>
+
+app.use("/tickets", express.static("tickets"));
+const filePath = `tickets/ticket_${Date.now()}.pdf`;
+
+function descargarPDF() {
+  const { jsPDF } = window.jspdf;
+
+  const doc = new jsPDF();
+
+  doc.setFontSize(18);
+  doc.text("🎬 MovieVerse", 20, 20);
+
+  doc.setFontSize(12);
+  doc.text("Película: " + movie, 20, 40);
+  doc.text("Total pagado: $" + total, 20, 50);
+  doc.text("Estado: Aprobado", 20, 60);
+
+  doc.text("Gracias por tu compra 🍿", 20, 80);
+
+  doc.save("Ticket_MovieVerse.pdf");
+}
+
+    if (!pdf) {
+      alert("No hay ticket disponible");
+      return;
+    }
+
+    // Crear nombre personalizado
+    const nombreArchivo = prompt("Nombre del archivo:", "Ticket_MovieVerse");
+
+    
+    if (!nombreArchivo) return;
+
+    // Crear enlace de descarga
+    const link = document.createElement("a");
+    link.href = pdf;
+    link.download = nombreArchivo + ".pdf";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+
+  function verTicket() {
+    const pdf = localStorage.getItem("ticketPDF");
+
+    if (!pdf) {
+      alert("No hay ticket disponible");
+      return;
+    }
+
+    window.open(pdf, "_blank");
+  }
+</script>
+
+</head>
+<body>

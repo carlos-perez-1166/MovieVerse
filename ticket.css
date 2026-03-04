@@ -1,0 +1,21 @@
+  body {
+    background: black;
+    color: white;
+    font-family: Arial;
+  }
+
+  button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background: white;
+    color: red;
+  }
