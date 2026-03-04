@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieVerse: El cine de tus sueños </title>
+
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- CSS personalizado -->
+<link rel="stylesheet" href="inicio.css" />
+
+</head>
+
+
+<!-- Encabezado responsivo -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="inicio.html">🎬 MovieVerse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSabor" 
+      aria-label="Abrir menú de navegación"> <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSabor">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="inicio.html"> Inicio </a></li>
+          <li class="nav-item"><a class="nav-link" href="compra.html"> Compras en línea </a></li>
+          <li class="nav-item"><a class="nav-link" href="inicioSesion.html"> Iniciar Sesión </a></li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+
+  <!-- Carrusel -->
+<div id="carouselSabor" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="MOVIEVERSE.png" alt="MovieVerse">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+<hr>
+
+
+
+<section class="container my-5" id="nosotros">
+  <h2 class="text-center text-dark mb-5">🎬 MovieVerse: El cine de tus sueños</h2>
+
+  <div class="row g-4">
+    
+    <!-- Misión -->
+    <div class="col-md-6">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body text-center">
+          <h3 class="card-title mb-3">🎯 Misión</h3>
+          <p class="card-text">
+            En MovieVerse, nuestra misión es transformar cada visita al cine en una
+            experiencia memorable, ofreciendo entretenimiento de alta calidad,
+            instalaciones modernas y un servicio excepcional que garantice comodidad,
+            seguridad y emoción en cada función.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visión -->
+    <div class="col-md-6">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body text-center">
+          <h3 class="card-title mb-3">🚀 Visión</h3>
+          <p class="card-text">
+            Consolidarnos como un referente del cine moderno en México, creando espacios
+            donde la innovación, la tecnología y la pasión por el séptimo arte inspiren
+            y conecten a nuevas generaciones de espectadores.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<hr>
+
+
+
+<!-- Agentes Novatos contenido -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Agentes Novatos.png" class="img-fluid rounded-start" alt="Agentes Novatos"
+            data-bs-toggle="modal"
+            data-bs-target="#modalAgentes"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Agentes Novatos <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 130 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Acción </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalAgentes">Ver Sinopsis</a>
+              <a href="javascript:void(0)"  class="btn btn-warning me-2" onclick="comprar('Agentes Novatos')">Comprar boletos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Gainst Chaos -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="Gainst Chaos.png" class="img-fluid rounded-start" alt="Gainst Chaos"
+            data-bs-toggle="modal"
+            data-bs-target="#modalGainstChaos"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Gainst Chaos <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> A </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 99 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Familiar </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalGainstChaos">Ver Sinopsis</a>
+              <a href="javascript:void(0)"  class="btn btn-warning me-2" onclick="comprar('Gainst Chaos')">Comprar boletos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- La Prueba Maldita contenido -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="La Prueba Maldita.png" class="img-fluid rounded-start" alt="La Prueba Maldita"
+            data-bs-toggle="modal"
+            data-bs-target="#modalLaPruebaMaldita"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> La Prueba Maldita <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> C </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 107 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Terror</p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalLaPruebaMaldita">Ver Sinopsis</a>
+              <a href="javascript:void(0)" class="btn btn-warning me-2" onclick="comprar('La Prueba Maldita')">Comprar boletos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- El Viajero contenido -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="Sam Carter - El Viajero.png" class="img-fluid rounded-start" alt="El Viajero"
+            data-bs-toggle="modal"
+            data-bs-target="#modalElViajero"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Sam Carter: El Viajero <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B-15 </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 115 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Acción </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalElViajero">Ver Sinopsis</a>
+              <a href="javascript:void(0)"  class="btn btn-warning me-2"   onclick="comprar('Sam Carter: El Viajero')"> Comprar boletos </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Presentador Por Error contenido -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="Presentador por Error.png" class="img-fluid rounded-start" alt="Presentador por error"
+            data-bs-toggle="modal"
+            data-bs-target="#modalPresentador"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Presentador Por Error <span class="badge badge-preestreno">En Preestreno</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 89 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Comedia</p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalPresentador">Ver Sinopsis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--- Hipnosis Letal contenido --->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="Hipnosis Letal.png" class="img-fluid rounded-start" alt="Hipnosis Letal"
+            data-bs-toggle="modal"
+            data-bs-target="#modalHipnosisLetal"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Hipnosis Letal <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B-15 </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 124 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Thriller </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalHipnosisLetal">Ver Sinopsis</a>
+              <a href="javascript:void(0)"  class="btn btn-warning me-2"  onclick="comprar('Hipnosis Letal')"> Comprar boletos </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--- Bad Dolls contenido --->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="Bad Dolls.png" class="img-fluid rounded-start" alt="BadDolls"
+            data-bs-toggle="modal"
+            data-bs-target="#modalBadDolls"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Bad Dolls <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B-15 </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 113 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Terror </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalBadDolls">Ver Sinopsis</a>
+              <a href="javascript:void(0)"  class="btn btn-warning me-2"   onclick="comprar('Bad Dolls')"> Comprar boletos </a>             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--- Mundo Infinito contenido --->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="El Mundo Infinito.png" class="img-fluid rounded-start" alt="El Mundo Infinito"
+            data-bs-toggle="modal"
+            data-bs-target="#modalMundoInfinito"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> El Mundo Infinito <span class="badge badge-preestreno">En Preestreno</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 140 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Thriller </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalMundoInfinito">Ver Sinopsis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--- Shalmunch contenido --->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="Shalmunch Código Samurái.png" class="img-fluid rounded-start" alt="Shalmunch: Código Samurái"
+            data-bs-toggle="modal"
+            data-bs-target="#modalShalmunch"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Shalmunch: Código Samurái <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 133 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Acción </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalShalmunch">Ver Sinopsis</a>
+              <a href="javascript:void(0)"  class="btn btn-warning me-2"   onclick="comprar('Shalmunch: Código Samurái')"> Comprar boletos </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--- Blurred contenido --->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="blurred.jpg" class="img-fluid rounded-start" alt="Blurred"
+            data-bs-toggle="modal"
+            data-bs-target="#modalBlurred"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Blurred <span class="badge badge-preestreno">En Preestreno</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B-15 </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 80 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Terror </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modalBlurred">Ver Sinopsis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--- 857 contenido --->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+          <!-- Imagen de la película -->
+          <div class="col-md-4">
+            <img src="857__Escape Bostonero.png" class="img-fluid rounded-start" alt="857: Escape Bostonero"
+            data-bs-toggle="modal"
+            data-bs-target="#modal857"
+            style="cursor:pointer;">
+          </div>
+          <!-- Contenido de la película -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> 857: Escape Bostonero <span class="badge bg-warning text-dark">En Cartelera</span></h5>
+              <p class="card-text mb-1"><strong>Clasificación:</strong> B </p>
+              <p class="card-text mb-3"><strong>Duración:</strong> 140 min</p>
+              <p class="card-text mb-3"><strong>Género:</strong> Acción </p>
+              <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modal857">Ver Sinopsis</a>
+              <a href="javascript:void(0)" class="btn btn-warning me-2" onclick="comprar('857: Escape Bostonero')">Comprar boletos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<hr>
+
+
+
+
+<!-- Modal Agentes Novatos -->
+<div class="modal fade" id="modalAgentes" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Agentes Novatos</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="Agentes Novatos.png" class="img-fluid rounded mb-3" alt="Agentes Novatos">
+
+        <p><strong>Género:</strong> Acción</p>
+        <p><strong>Subgéneros:</strong> Acción, Policiaca </p>
+        <p><strong>Duración:</strong> 130 min</p>
+        <p><strong>Clasificación:</strong> B</p>
+        <p><strong>Sinopsis:</strong> Dos agentes novatos planean irse de vacaciones 
+          a Las Vegas, pero terminan rodeados de peligros... y de una de las mafias 
+          más peligrosas del país. </p>
+        <p><strong>Horarios:</strong> 12:00, 14:50, 16:30, 18:00, 19:50, 21:45</p>
+
+        <a href="javascript:void(0)" class="btn btn-warning mt-3" onclick="comprar('Agentes Novatos')">Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Modal Gainst Chaos -->
+<div class="modal fade" id="modalGainstChaos" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Gainst Chaos</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="Gainst Chaos.png" class="img-fluid rounded mb-3" alt="Gainst Chaos">
+
+        <p><strong>Género:</strong> Familiar </p>
+        <p><strong>Subgénero(s):</strong> Acción y Aventura </p>
+        <p><strong>Duración:</strong> 99 min</p>
+        <p><strong>Clasificación:</strong> A </p>
+        <p><strong>Sinopsis:</strong> Un mundo tranquilo y sereno termina siendo 
+        víctima de unos seres ruidosos, amantes de lo extremo. Steph, Josh y su 
+        grupo harán lo posible por mediar con ellos, entre el caos y el silencio.  </p>
+        <p><strong>Horarios:</strong> 12:00, 12:25, 12:55, 13:10, 13:45, 14:25, 14:55, 
+        15:10, 15:50, 16:30, 17:40, 18:20, 19:00, 19:35, 20:00, 20:30, 21:00 </p>
+
+        <a href="javascript:void(0)" class="btn btn-warning mt-3" onclick="comprar('Gainst Chaos')">Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Modal La Prueba Maldita -->
+<div class="modal fade" id="modalLaPruebaMaldita" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> La Prueba Maldita </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="La Prueba Maldita.png" class="img-fluid rounded mb-3" alt="La Prueba Maldita">
+
+        <p><strong>Género:</strong> Terror </p>
+        <p><strong>Subgénero(s):</strong> Terror sobrenatural, terror adolescente </p>
+        <p><strong>Duración:</strong> 107 min</p>
+        <p><strong>Clasificación:</strong> C </p>
+        <p><strong>Sinopsis:</strong> Después de un fin de semana de excesos, 
+        los estudiantes de la preparatoria Barchender terminan envueltos en 
+        una pesadilla infernal durante su último examen del año. ¿Será la 
+        realidad, o producto de sus alucinaciones y resaca?  </p>
+        <p><strong>Horarios:</strong> 16:50, 18:25, 20:55</p>
+
+        <a href="javascript:void(0)"  class="btn btn-warning mt-3" onclick="comprar('la Prueba Maldita')">Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal El Viajero -->
+<div class="modal fade" id="modalElViajero" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> Sam Carter: El Viajero </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="Sam Carter - El Viajero.png" class="img-fluid rounded mb-3" alt="Sam Carter: El Viajero">
+
+        <p><strong>Género:</strong> Acción </p>
+        <p><strong>Subgénero(s):</strong> Acción y aventura, Thrillers </p>
+        <p><strong>Duración:</strong> 115 min</p>
+        <p><strong>Clasificación:</strong> B-15 </p>
+        <p><strong>Sinopsis:</strong> [En proceso]  </p>
+        <p><strong>Horarios:</strong> 15:40, 16:10, 17:35, 19:00</p>
+
+        <a href="javascript:void(0)"  class="btn btn-warning mt-3" onclick="comprar('Sam Carter: El Viajero')">Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal Presentador Por Error -->
+<div class="modal fade" id="modalPresentador" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> Presentador Por Error </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="Presentador por Error.png" class="img-fluid rounded mb-3" alt="Presentador por Error">
+
+        <p><strong>Género:</strong> Comedia </p>
+        <p><strong>Subgénero(s):</strong> Comedia Fantástica </p>
+        <p><strong>Duración:</strong> 89 min</p>
+        <p><strong>Clasificación:</strong> B </p>
+        <p><strong>Sinopsis:</strong> La vida de John Leiden tomó un giro de 
+        180 grados, cuando una extraña invitación a una presentación empezó a
+        aparecer en el buzón de su hermana y de él. Y al acudir, y sin haber 
+        sido introducido al mundo televisivo, es conducido como Presentador. 
+        Ahí conoce a gente nueva para entrevistar, quienes lo encaminan al 
+        mundo de los shows poco a poco... y a su gemelo perdido James, quien
+        deberá educar al mismo camino.   </p>
+        <p><strong> ¡Próximamente en cines! </strong></p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal Hipnosis Letal -->
+<div class="modal fade" id="modalHipnosisLetal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> Hipnosis Letal </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="Hipnosis Letal.png" class="img-fluid rounded mb-3" alt="Hipnosis Letal">
+
+        <p><strong>Género:</strong> Thriller </p>
+        <p><strong>Subgénero(s):</strong> Peliculas Policiacas </p>
+        <p><strong>Duración:</strong> 124 min </p>
+        <p><strong>Clasificación:</strong> B-15 </p>
+        <p><strong>Sinopsis:</strong> Un grupo de policías tratan de resolver varios 
+        casos en un mismo mes; entre esos, un misterioso asesinato de una actriz joven
+         y famosa. Pero las pistas de cada caso coinciden con una extraña persona con 
+        poderes superhumanas de hipnosis. 
+  </p>
+        <p><strong>Horarios:</strong> 14:50, 16:55, 17:30, 19:00, 20:45, 21:25 </p>
+
+        <a href="javascript:void(0)"  class="btn btn-warning mt-3" onclick="comprar('Hipnosis Letal')">Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal Bad Dolls -->
+<div class="modal fade" id="modalBadDolls" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> Bad Dolls </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="Bad Dolls.png" class="img-fluid rounded mb-3" alt="Bad Dolls">
+
+        <p><strong>Género:</strong> Terror </p>
+        <p><strong>Subgénero(s):</strong> Terror sobrenatural </p>
+        <p><strong>Duración:</strong> 113 min </p>
+        <p><strong>Clasificación:</strong> B-15 </p>
+        <p><strong>Sinopsis:</strong> La familia Rademan se muda a Valley Forest, una zona boscosa 
+        a pocos minutos de Richmond, Virginia. Todo parece normal, hasta que la hija menor de la 
+        familia halla unas muñecas de trapo que parecían tener secretos oscuros... 
+  </p>
+        <p><strong>Horarios:</strong> 15:45, 17:00 18:50, 20:25 22:00 </p>
+
+        <a href="javascript:void(0)"  class="btn btn-warning mt-3" onclick="comprar('Bad Dolls')">Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal El Mundo Infinito -->
+<div class="modal fade" id="modalMundoInfinito" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> El Mundo Infinito </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="El Mundo Infinito.png" class="img-fluid rounded mb-3" alt="El Mundo Infinito">
+
+        <p><strong>Género:</strong> Thriller </p>
+        <p><strong>Subgénero(s):</strong> Terror, De intriga </p>
+        <p><strong>Duración:</strong> 140 min </p>
+        <p><strong>Clasificación:</strong> B </p>
+        <p><strong>Sinopsis:</strong> En un mundo distópico y caótico, se han hecho experimentos con personas
+        de todas las edades para determinar qué ocurre después de la muerte, hasta que descubren que sus 
+        pesadillas y miedos son su verdadero infierno... 
+  </p>
+        <p><strong> ¡Próximamente en cines! </strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Shalmunch -->
+<div class="modal fade" id="modalShalmunch" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> Shalmunch: Código Samurái </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="Shalmunch Código Samurái.png" class="img-fluid rounded mb-3" alt="Shalmunch: Código Samurái">
+
+        <p><strong>Género:</strong> Acción </p>
+        <p><strong>Subgénero(s):</strong> Peliculas del medio oriente </p>
+        <p><strong>Duración:</strong> 133 min </p>
+        <p><strong>Clasificación:</strong> B </p>
+        <p><strong>Sinopsis:</strong> Ren Nakamura, un hombre japonés heredero del poder de 
+        su padre, se vio envuelto en una misión: vencer a los demonios más temidos del occidente,
+        y detener el temido ritual de las serpientes. </p>
+        <p><strong>Horarios:</strong> 12:00, 12:55, 13:15, 13:45, 14:30, 14:55, 15:35, 16:10,
+         16:45, 17:00, 17:40, 18:20, 18:55, 19:00, 19:30, 20:40, 21:25 </p>
+
+        <a href="javascript:void(0)"  class="btn btn-warning mt-3" onclick="comprar('Shalmunch: El Código Samurái')">Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal Blurred -->
+<div class="modal fade" id="modalBlurred" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> Blurred </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="blurred.jpg" class="img-fluid rounded mb-3" alt="Blurred">
+
+        <p><strong>Género:</strong> Terror </p>
+        <p><strong>Subgénero(s):</strong> Terror sobrenatural </p>
+        <p><strong>Duración:</strong> 80 min </p>
+        <p><strong>Clasificación:</strong> B-15 </p>
+        <p><strong>Sinopsis:</strong> Después de la terrible muerte de su esposa e hija, un médico prestigioso, 
+        por desesperación, entra a un culto donde dormir es la única restricción, sin saber el verdadero origen
+        del mismo, y que la ciudad donde vive está involucrada en algo siniestro, mientras lucha contra las 
+        tortuosas consecuencias de quedar despierto por tanto tiempo... 
+  </p>
+        <p><strong> ¡Próximamente en cines! </strong></p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal 857 -->
+<div class="modal fade" id="modal857" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title"> 857: Escape Bostonero </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"> Ver Horarios </button>
+      </div>
+
+      <div class="modal-body">
+        <img src="857__Escape Bostonero.png" class="img-fluid rounded mb-3" alt="857: Escape Bostonero">
+
+        <p><strong>Género:</strong> Acción </p>
+        <p><strong>Subgénero(s):</strong> Comedias de Acción, De intriga </p>
+        <p><strong>Duración:</strong> 140 min </p>
+        <p><strong>Clasificación:</strong> B </p>
+        <p><strong>Sinopsis:</strong> Un taxista aburrido de la rutina acepta un 
+        contrato con uno de los hombres más ricos de su ciudad: llevar a su hijo a 
+        la escuela. Pero todo da un giro de 180 grados cuando un accidente ocasiona 
+        un caos en toda la ciudad... y el principal sospechoso es él. 
+        Junto a un colega suyo, y en compañía adolescente, deberá hallar con el 
+        verdadero culpable antes que el tiempo se agote. </p> 
+        <p><strong>Horarios:</strong> 12:50, 13:10, 13:45, 14:20, 15:00, 15:35, 16:20, 17:00, 17:45, 18:30, 19:55,
+        20:25, 21:00 </p>
+
+        <a href="javascript:void(0)"  class="btn btn-warning mt-3" onclick="comprar('857: Escape Bostonero')" >Comprar boletos</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<hr>
+
+
+
+
+
+ <!-- Formulario de contacto -->
+  <section class="container my-5" id="formulario-contacto">
+    <h2 class="text-center black mb-4"> ¿Te gustaría comprar boletos de entrada en línea? ¡Contáctanos! </h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="correo" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alerta -->
+  <div class="container">
+    <div class="alert alert-success alert-dismissible fade show d-none" role="alert" id="alertaEnvio">
+      ¡Gracias por contactarnos! Te responderemos pronto.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+    </div>
+  </div>
+
+
+<hr>
+
+
+  <div class="container">
+    <h1>Comentarios de películas 🎬</h1>
+
+    <div class="form">
+      <input 
+        type="text" 
+        id="nuevo-comentario" 
+        placeholder="Escribe tu comentario..."
+      >
+      <button id="agregar-comentario">Agregar</button>
+    </div>
+
+    <ul id="lista-comentarios"></ul>
+  </div>
+
+  <!-- Conexión con JavaScript -->
+  <script src="inicio.js"></script>
+
+
+
+
+<hr>
+
+
+  <!-- Footer -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <footer id="contacto" class="bg-dark text-white text-center p-4">
+    <p>contáctanos: movieverse_official@gmail.com </p>
+    <p>movieverse-official.mx</p>
+    <p>&copy; MovieVerse </p>
+    <p> ¡Visítanos en redes sociales! </p> 
+
+<div class="social-icons">
+  <a href="https://www.instagram.com/movieverse_official_?igsh=MTA3Mng4Z3RuYzZvOA==" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Instagram de MovieVerse">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
+  <p>&copy; 2026 MovieVerse </p>
+</footer>
+</link>
+
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    document.querySelector("form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const alerta = document.getElementById("alertaEnvio");
+      alerta.classList.remove("d-none");
+      setTimeout(() => alerta.classList.add("d-none"), 4000);
+      this.reset();
+    });
+  </script>
+
+
+
+<script>
+  const usuario = localStorage.getItem("usuario");
+  const loginLink = document.getElementById("loginLink");
+
+  if (usuario) {
+    const nombreCorto = usuario.split("@")[0]; // solo lo antes del @
+    loginLink.textContent = nombreCorto;
+    loginLink.href = "#"; // ya no lleva a iniciar sesión
+  }
+</script>
+
+
+
+</body>
+</html>
